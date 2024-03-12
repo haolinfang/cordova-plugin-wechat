@@ -1,4 +1,4 @@
-package __PACKAGE_NAME__;
+package __PACKAGE_NAME__.wxapi;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -18,9 +18,6 @@ import org.apache.cordova.CallbackContext;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-
-import xu.li.cordova.wechat.Wechat;
 
 /**
  * Created by xu.li<AthenaLightenedMyPath@gmail.com> on 9/1/15.

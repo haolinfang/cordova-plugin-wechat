@@ -41,7 +41,7 @@ module.exports = {
      *        thumb: "http://YOUR_THUMBNAIL_IMAGE",
      *        media: {
      *            type: Wechat.Type.WEBPAGE,   // webpage
-     *            webpageUrl: "https://github.com/xu-li/cordova-plugin-wechat"    // webpage
+     *            webpageUrl: "https://github.com/haolinfang/cordova-plugin-wechat"    // webpage
      *        }
      *    },
      *    scene: Wechat.Scene.TIMELINE   // share to Timeline

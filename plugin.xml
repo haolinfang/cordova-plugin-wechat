@@ -10,8 +10,8 @@
     <description>A cordova plugin, a JS version of Wechat SDK</description>
     <license>MIT</license>
     <keywords>cordova,wechat,weixin,share</keywords>
-    <repo>https://github.com/xu-li/cordova-plugin-wechat.git</repo>
-    <issue>https://github.com/xu-li/cordova-plugin-wechat/issues</issue>
+    <repo>https://github.com/haolinfang/cordova-plugin-wechat.git</repo>
+    <issue>https://github.com/haolinfang/cordova-plugin-wechat/issues</issue>
 
     <!-- add this to your config.xml -->
     <!-- <preference name="WECHATAPPID" value="YOUR_WECHAT_APP_ID_HERE" /> -->
@@ -70,10 +70,10 @@
         <source-file src="src/ios/AppDelegate+Wechat.m" />
 
         <!-- Wechat Official -->
-        <header-file src="src/ios/libs/OpenSDK1.8.6.2/WXApi.h" />
-        <header-file src="src/ios/libs/OpenSDK1.8.6.2/WXApiObject.h" />
-        <header-file src="src/ios/libs/OpenSDK1.8.6.2/WechatAuthSDK.h" />
-        <source-file src="src/ios/libs/OpenSDK1.8.6.2/libWeChatSDK.a" framework="true" />
+        <header-file src="src/ios/libs/OpenSDK1.8.9/WXApi.h" />
+        <header-file src="src/ios/libs/OpenSDK1.8.9/WXApiObject.h" />
+        <header-file src="src/ios/libs/OpenSDK1.8.9/WechatAuthSDK.h" />
+        <source-file src="src/ios/libs/OpenSDK1.8.9/libWeChatSDK.a" framework="true" />
 
         <!-- Other required frameworks -->
         <framework src="libz.tbd" />
@@ -96,7 +96,7 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Wechat">
-                <param name="android-package" value="xu.li.cordova.wechat.Wechat"/>
+                <param name="android-package" value="com.plugin.wechat.Wechat"/>
             </feature>
             <preference name="WECHATAPPID" value="$WECHATAPPID"/>
         </config-file>
@@ -135,8 +135,8 @@
             </activity>
         </config-file>
 
-        <source-file src="src/android/Wechat.java" target-dir="src/xu/li/cordova/wechat" />
-        <source-file src="src/android/Util.java" target-dir="src/xu/li/cordova/wechat" />
+        <source-file src="src/android/Wechat.java" target-dir="src/com/cordova/plugin/wechat" />
+        <source-file src="src/android/Util.java" target-dir="src/com/cordova/plugin/wechat" />
         <framework src="android-build.gradle" custom="true" type="gradleReference" />
     </platform>
 </plugin>

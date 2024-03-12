@@ -139,7 +139,7 @@ Wechat.share({
 
 ## Send payment request
 ```Javascript
-// See https://github.com/xu-li/cordova-plugin-wechat-example/blob/master/server/payment_demo.php for php demo
+// See https://github.com/haolinfang/cordova-plugin-wechat-example/blob/master/server/payment_demo.php for php demo
 var params = {
     partnerid: '10000100', // merchant id
     prepayid: 'wx201411101639507cbf6ffd8b0779950874', // prepay id
